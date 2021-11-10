@@ -1,0 +1,74 @@
+
+.MyClass
+{
+    background-color:orchid;
+    font-size: 25px;
+    font-style: oblique;
+    color:teal;
+}
+
+#First
+{
+    background-color:mediumspringgreen;
+    font-size: medium;
+    font-style:inherit;
+    color:tomato;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.absolute_class
+{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    height: 50px;
+    width: 150px;
+    background: red;
+}
+
+.relative_class
+{
+    position: relative;
+    top: 0px;
+    left: 300px;
+    height: 50px;
+    width: 150px;
+    background:yellow;
+}
+
+.float_property
+{
+    float: right;
+    background:navy;
+    color: palegoldenrod;
+    border:crimson 5px solid;
+    padding: 10px;
+    width: 40%;
+}
+
+.flex-container {
+    display: flex;
+    background-color:white;
+    width: 400px;
+    height: 350px;
+    flex-wrap: wrap;
+  }
+
+.containers{
+    display: flex;
+    background-color:navy;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container_2 {
+    display: flex;
+    background-color:navy;
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+    

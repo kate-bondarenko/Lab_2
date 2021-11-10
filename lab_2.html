@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lb2.css" type="text/css">
+    <title>Лабораторная работа №2</title>
+
+    <style type="text/css">
+        body {background-color:rgb(250, 234, 205);}
+        
+        h4 {
+        color:lawngreen;
+        }
+
+        ol {
+            color: mediumturquoise;
+            font-size: 30px;
+            list-style-type:none
+            
+        }
+        li:before {
+            content: "$ ";
+            font-size: 30px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h3 align="center">Тема: Каскадные таблицы стилей <br>Вариант №2</h3>
+
+    <h3>Inline-описание (используется атрибут style)</h3>
+    <p style="font-size: 20px; color: orange; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <h3>C помощью контейнера в секции заголовка</h3>
+    <h4>Aenean mauris magna, pharetra sit amet ligula eu, tempor scelerisque enim. 
+        Sed pretium ante non mi eleifend congue.</h4>
+
+        <h3>Используя селекторы CLASS и ID, показать использование стилей</h3>
+        <div class="MyClass">Aliquam consectetur, libero at eleifend imperdiet, 
+            massa diam lobortis quam, at pulvinar mauris metus dapibus augue.</div>
+        <div id="First">Cras suscipit ultrices nisi sit amet hendrerit.</div>
+
+        <h3>Использование абсолютного и относительного позиционирования</h3>
+        <div>Cras blandit, metus non mattis vulputate, nisi massa rhoncus tortor, ut 
+            ullamcorper arcu mi eget turpis.Aliquam lacus ligula, cursus at mauris eget, 
+            sagittis lacinia dui.Proin sit amet quam blandit velit sagittis pulvinar at in orci. 
+            Donec et neque ut odio rutrum condimentum. Nam et fermentum ipsum. 
+            Integer at venenatis sapien. Phasellus tincidunt vestibulum egestas.
+            <div class="absolute_class">Абсолютный</div>
+            <div class="relative_class">Относительный</div>
+        </div>
+
+        <h3>Использование плавающей модели (свойство float)</h3>
+        <div class="float_property">Maecenas dignissim nulla eu nunc varius, 
+            sit amet condimentum elit sagittis. Aliquam a nisl hendrerit dui viverra rutrum. 
+            Quisque vulputate risus purus, ac eleifend quam auctor vitae. </div>
+            <div>Vestibulum scelerisque eros lacus, a ultrices felis hendrerit a. Aenean vitae sodales lorem. In tellus dolor, 
+                efficitur a orci at, interdum blandit purus.Suspendisse commodo finibus tellus, sagittis elementum mi 
+                placerat eu. Integer cursus mauris non dolor suscipit, ac pretium nibh facilisis. 
+                Etiam egestas nec justo at varius. Maecenas suscipit tortor diam, quis ornare nibh 
+                convallis eu. Nam ac lectus id enim hendrerit volutpat eu vel metus. </div>
+
+        <h3>Cписок с собственным маркером (изображение, символ или сгенерированное средствами CSS)</h3>
+        <ol>
+            <li>Красный</li>
+            <li>Синий</li>
+            <li>Зеленый</li>
+        </ol>
+
+        <h3>Контейнер с элементами, размещенными согласно рисунку. Использовать Flexbox.</h3>
+        <div class="flex-container">
+            <div class="containers"></div>
+            <div class="container_2"></div>
+            <div class="containers"></div>
+            <div class="containers"></div>
+            <div class="containers"></div>
+            <div class="containers"></div>
+        </div>
+        
+
+</body>
+</html>
